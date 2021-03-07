@@ -1,0 +1,21 @@
+import javax.swing.*;
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author 91942
+ */
+public class FrameDemo {
+    public static void main(String args[])
+    {
+        JFrame ob=new JFrame("First Frame");
+        ob.setSize(450,400);
+        ob.setVisible(true);
+        ob.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        
+    }
+}
