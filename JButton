@@ -1,0 +1,37 @@
+import java.awt.*;
+import javax.swing.*;
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author 91942
+ */
+public class Border {
+    JFrame f;
+    Border(){
+        f=new JFrame();
+        JButton b1=new JButton("North Btn");
+         JButton b2=new JButton("South Btn");
+          JButton b3=new JButton("East Btn");
+           JButton b4=new JButton("West Btn");
+            JButton b5=new JButton("Center Btn");
+            
+            f.add(b1,BorderLayout.NORTH);
+             f.add(b2,BorderLayout.SOUTH);
+              f.add(b3,BorderLayout.EAST);
+               f.add(b4,BorderLayout.WEST);
+                f.add(b5,BorderLayout.CENTER);
+                
+                f.setSize(300,300);
+                f.setVisible(true);
+                f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            
+    }
+ public static void main(String args[])
+ {
+     new Border();}
+}
