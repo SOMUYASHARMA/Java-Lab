@@ -22,7 +22,7 @@ public class fbutton extends Frame  implements ActionListener {
         });
 
 
-        Button b1,b2,b3,b4;
+        Button b1,b2;
         b1=new Button("yellow");
         b2=new Button("blue");
       
