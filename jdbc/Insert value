@@ -12,10 +12,10 @@ public class Firstsql {
              Class.forName("com.mysql.cj.jdbc.Driver");
              Connection con=DriverManager.getConnection(url,user,pass);
              PreparedStatement ps=con.prepareStatement("insert into student value(?,?,?,?,?)");
-             ps.setInt(1,500);
-             ps.setString(2,"anant");
-             ps.setString(3,"cs");
-             ps.setInt(4,9);
+             ps.setInt(1,250);
+             ps.setString(2,"Raj");
+             ps.setString(3,"IT");
+             ps.setInt(4,5);
              ps.executeUpdate();
              System.out.println("coneection successfully");
              
